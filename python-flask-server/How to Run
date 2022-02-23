@@ -1,0 +1,10 @@
+Start virtual environment:
+py -3 -m venv <path>
+<path>\Scripts\activate
+
+Install packages:
+pip install Flask
+pip install Flask-Cors
+
+Run python script:
+python server.py
