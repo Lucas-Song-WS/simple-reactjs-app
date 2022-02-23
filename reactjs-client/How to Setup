@@ -1,0 +1,7 @@
+Setup base react app:
+npx create-react-app <name>
+
+Replace files inside <name> directory with files from this repo
+
+Run app (inside <name> directory):
+npm start
