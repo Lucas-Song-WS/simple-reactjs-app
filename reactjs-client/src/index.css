@@ -1,0 +1,66 @@
+table, th, td {
+	border: 1px solid black;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+td {
+	padding: 5px 10px;
+	min-width: 110px;
+}
+
+thead > tr > td{
+	font-weight: bold;
+}
+
+.page-button {
+	margin-top: 30px;
+	padding: 5px 10px;
+	width: 110px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input {
+	min-width: 200px;
+}
+
+input[type=submit] {
+	background-color: #3ecb00;
+	border-color: #3ecb00;
+	border-style: solid;
+	border-radius: 3px;
+	padding: 5px 10px;
+	margin-top: 10px;
+}
+input[type=submit]:hover {
+	background-color: #39b000;
+	border-color: #39b000;
+}
+
+body, button, input {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 10px;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
