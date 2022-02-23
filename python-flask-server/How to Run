@@ -8,3 +8,5 @@ pip install Flask-Cors
 
 Run python script:
 python server.py
+
+Setup DB by uncommenting the "resetDB()" function in "server.py" and execute it by going to "localhost:5000/setup"
